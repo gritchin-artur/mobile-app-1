@@ -1,0 +1,266 @@
+@media screen and (min-width: 768px) {
+    .container {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
+
+/* ======================mobile app header=============== */
+
+@media screen and (min-width:768px) {
+    .mobile-menu-open-button {
+            display: none;
+        }
+        .mobile-list-backgraund {
+            display: none;
+        }
+
+        .navigation-list-header {
+            Font-style: Regular; 
+            Font-size: 12px; 
+            Line-height: 1.25;
+            color: var(--accent-color);
+        }
+
+        .navigation-app-list {
+            display: flex;
+            gap: 40px;
+        }
+        .navigation-list {
+            display: flex;
+                align-items: center;
+                    justify-content: space-between;
+        }
+}
+
+ /* =====================mobile hero section=============== */
+
+ @media screen and (min-width:768px) {
+.hero-area {
+        background: #06071B;
+        padding-top: 60px;
+        padding-bottom: 143px;
+    }
+
+    .hero-area::after {
+content: url(../imeges/tablet/iphone\ x\ svg.svg);
+        position: absolute;
+        right: 32px;
+        top: 258px;
+       
+    }
+        .hero-title::after {
+            content: url(../imeges/tablet/desctop\ 1.svg);
+            position: absolute;
+            right: 207px;
+            top: 228px;
+        }
+
+                 .hero-subtitle::after {
+                    content: url(../imeges/tablet/desctop\ 2.svg);
+                    position: absolute;
+                    right: 273px;
+                    top: 258px;
+                }
+
+                .header-list-link::after {
+                    content: url(../imeges/tablet/desctop\ 3.svg);
+                    position: absolute;
+                    right: 260px;
+                    top: 321px;
+                }
+
+                 .header-list::after {
+                    content: url(../imeges/tablet/desctop\ 4.svg);
+                    position: absolute;
+                    right: 360px;
+                    top: 341px;
+                }
+
+                .hero-button::after {
+                    content: url(../imeges/tablet/desctop\ 5.svg);
+                    position: absolute;
+                    right: 391px;
+                    top: 421px;
+                }
+
+                .key-features-section::after {
+                    content: url(../imeges/tablet/desctop\ 6.svg);
+                    position: absolute;
+                right: 479px;
+                    top: 441px;
+                }
+
+                .key-features-area::after {
+                    content: url(../imeges/tablet/desctop\ 7.svg);
+                    position: absolute;
+                    right: 484px;
+                    top: 520px;
+                }
+
+
+        .hero-title {
+            Font-size: 40px;
+                Line-height: 1.2;
+        }
+        .hero-subtitle {
+            Font-size: 20px;
+                Line-height: 1.2;
+                padding-bottom: 28px;
+        } 
+                .header-list {
+                    Font-size: 16px;
+                        Line-height: 1.2;
+                }
+        .header-list-link {
+            display: grid;
+            gap: 12px;
+            padding-bottom: 60px;
+        }
+ }
+
+        /* =========================mobile KEY FEATURES================== */
+
+          @media screen and (min-width:768px) {
+
+            .key-features-area {
+                padding-top: 100px;
+                padding-bottom: 80px;
+            }
+
+            .key-features-title {
+                Font-size: 24px;
+                    Line-height: 1.2;
+            }
+
+            .key-features-subtitle {
+                Font-size: 16px;
+                    Line-height: 1.5;
+            }
+
+             .key-features-image::before {
+                    content: url(../imeges/tablet/KEY-FEATURES\ tablet.svg);
+                    padding-bottom: 80px;
+                    display: flex;
+                    margin-left: -32px;
+                    margin-right: 32px;
+                    Width: 467px; 
+                    Height: 592px;
+                }
+
+                .key-features-image {
+                        display: flex
+                }
+
+                .key-features-list {
+                    gap: 80px 90px;
+                    display: grid;
+                    flex-basis: calc((100% - 16px) / 2);
+                }
+          }
+
+                   /* =======================WATCH THE VIDEO==================== */
+
+                   @media screen and (min-width:768px) {
+                    .video-area {
+                        padding-top: 80px;
+                        padding-bottom: 40px;
+                    }
+
+                    .video-title {
+                        Font-size: 24px;
+                            Line-height: 1.2;
+                                text-align: center;
+                                margin-bottom: 20px;
+                    }
+
+                    .video-subtitle {
+                        Font-size: 16px;
+                            Line-height: 1.2;
+                            text-align: center;
+                            margin-bottom: 20px;
+                    }
+
+                    .video-social-list {
+                        justify-content: center;
+                    }
+
+                    .watch-video-image::after {
+                        content: url(../imeges/tablet/WATCH-THE\ VIDEO-tablet.svg);
+                        justify-content: center;
+                            display: flex;
+                    }
+                   }
+     /* ===================OUR TEAM====================== */
+
+     @media screen and (min-width:768px) {
+        .our_team-area {
+            padding-top: 80px;
+            padding-bottom: 80px;
+        }
+        .our_team-title {
+            Font-size: 24px;
+                Line-height: 1.21;
+                padding-bottom: 40px;
+        }
+        .our_team-subtitle {
+            Font-size: 16px;
+                Line-height: 1.5;
+                padding-bottom: 24px;
+        }
+        .our_team-card {
+            max-width: 336px;
+        }
+        .our_team-list {
+            display: flex;
+            flex-basis: calc((100% - 32px) / 4);
+            gap: 40px 32px;
+                flex-wrap: wrap;
+                    justify-content: center;
+                    padding-bottom: 80px;
+        }
+        .our_costumers-imeg-area {
+            padding-bottom: 40px;
+        }
+        .our_costumers-text {
+        Font-size: 16px;
+            Line-height: 1.5;
+        }
+     }
+
+          /* ==================footer================== */
+
+         @media screen and (min-width:768px) {
+            .footer-area {
+                padding-top: 80px;
+                padding-bottom: 80px;
+            }
+            .footer-title {
+            Font-size: 24px;
+                Line-height: 1.2;
+            }
+            .footer-input-line {
+                width: 48%;
+               
+            }
+            .text-list {
+             margin-right: 23px;
+            }
+            .footer-texarea-input {
+                height: 160px;
+                margin-top: 20px;
+            }
+            .footer-link-section-title {
+                text-align: center;
+                font-weight: 500;
+                Font-size: 24px;
+                    Line-height: 1.208;
+                    margin-bottom: 20px;
+            }
+            .footer-link-section-subtitle {
+                text-align: center;
+                    font-weight: 500;
+                    Font-size: 16px;
+                    Line-height: 1.25;
+            }
+         }
